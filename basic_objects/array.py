@@ -1,15 +1,15 @@
-import numpy
+
 
 def basic_arrays():
     l1 = [123,234,345,'abc']
     print(len(l1))
     print(l1[1])
-
+    #############################
     l2 = l1 + [4,5,'eee']
     print(l2)
     l2.append(5678)
     print(l2)
-
+    #############################
     l3 = ['aa','bb','dd','cc']
     l3.sort()
     print(l3)
@@ -21,14 +21,14 @@ def nested_arrays():
     print(m1)
     print(m1[0])
     print(m1[0][2])
-    ###
+    ################################
     col0 = [row[0] for row in m1]
     print(col0)
     col1 = [row[0] + 1 for row in m1] # Add 1 to each item in column 2
     print(col1)
     col2 = [row[0] for row in m1 if row[0]%2 == 0] # Filter out odd items
     print(col2)
-
+    #############################
     diag = [m1[i][i] for i in [0, 1, 2]] # Collect a diagonal from matrix
     print(diag)
     doubles = [c * 2 for c in 'spam'] # Repeat characters in a string

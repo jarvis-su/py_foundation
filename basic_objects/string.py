@@ -6,10 +6,10 @@ def basic_string():
     print(s1[1])
     print(s1[1:3])
     print(s1[-1])
-
+    #############################
     s2 = s1 * 8
     print(s2)
-
+    #############################
     s3 = s1 + 'ABCD'
     print(s3)
     print(s1.find('b'))
@@ -22,5 +22,6 @@ def basic_string():
     print(s6.isalnum())
     print(s6.isalpha())
 
+#############################
 if __name__ == "__main__":
     basic_string()
