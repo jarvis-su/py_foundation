@@ -27,7 +27,7 @@ for row in range(2, sheet.get_highest_row() + 1):
 
 # Open a new text file and write the contents of countyData to it.
 print('Writing results...')
-resultFile = open('census2010.py', 'w')
+resultFile = open('../source/census2010.py', 'w')
 resultFile.write('allData = ' + pprint.pformat(countyData))
 resultFile.close()
 print('Done.')
