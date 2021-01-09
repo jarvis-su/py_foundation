@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 from sklearn.linear_model import  LinearRegression
 
 China = []
-with open(file='../data/owid-covid-data.csv',mode='r',encoding='utf-8') as f:
+with open(file='../../data/owid-covid-data.csv', mode='r', encoding='utf-8') as f:
     data = f.readlines()
     for line in data:
         field = [item for item in line.split(',')]
