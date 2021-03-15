@@ -1,5 +1,4 @@
 
-
 def basic_arrays():
     l1 = [123,234,345,'abc']
     print(len(l1))
